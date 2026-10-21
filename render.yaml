@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: telegram-moderation-bot
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -u bot.py
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TOXICITY_THRESHOLD
+        value: "0.75"
+      - key: SEND_WARNING_MESSAGE
+        value: "True"
+      - key: WARNING_DELETE_DELAY
+        value: "5"
+      - key: CHANNEL_LOOKISM_INDIA
+        value: "-1003908541243"
+      - key: GROUP_LOOKISM_GC
+        value: "-1004446541499"
+      - key: GROUP_LOOKISM_OFFICIAL_GC
+        value: ""

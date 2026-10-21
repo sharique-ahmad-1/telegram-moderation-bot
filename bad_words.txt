@@ -1,0 +1,43 @@
+# Prohibited words and phrases (one entry per line)
+# Matching is case-insensitive
+scam
+fraud
+phishing
+cryptocurrency giveaway
+free crypto
+whatsapp group
+join my channel
+dm for free signals
+pump and dump
+nude
+porn
+xxxbuzz
+casino bonus
+free robux
+free vbucks
+telegram.dog
+bit.ly
+t.me/
+hate
+slur
+idiot
+moron
+bastard
+bitch
+asshole
+fuck
+shit
+cunt
+dick
+cock
+pussy
+whore
+slut
+fag
+faggot
+nigger
+nigga
+retard
+kill yourself
+die
+kys
